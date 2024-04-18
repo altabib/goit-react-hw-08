@@ -31,16 +31,16 @@ const ContactForm = () => {
     onSubmit={handleSubmit}
     >
     <Form className={css.form}>
-      <label className={css.inputLabelUser}>
-        <Field className={css.formName} type="text" name='name' placeholder='George Washington'/>
+      <label className={css.inputLabel}>
+        <Field className={css.formName} type="text" name='name' placeholder='Ivan Andrushchenko'/>
         <ErrorMessage 
         className={css.errorMsg}
         name="name"
         component='span'
         />
       </label>
-      <label className={css.inputLabelNumber}>
-        <Field className={css.formNumb} type='tel' name='number' placeholder='+380994687989'/>
+      <label className={css.inputLabel}>
+        <Field className={css.formNumb} type='tel' name='number' placeholder='+380123456789'/>
         <ErrorMessage 
         className={css.errorMsg}
         name="number"

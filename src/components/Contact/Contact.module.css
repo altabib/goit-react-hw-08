@@ -1,49 +1,51 @@
-.contactInfo {
-  display: flex;
-  border: 3px solid black;
-  justify-content: center;
-  
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 2px solid rgb(4, 4, 4);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+    
+    
+}
+
+.contactInfo{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
 
 }
 
-.contactContainer{
-   position: relative;
-
+.contactName {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
 }
 
-.liIcon{
-  margin-right: 10px;
-  margin-left: 10px;
-  /* position: absolute;
-  left: -21px; */
-  top: 2px;
-  width: 15px;
+.contactNumber {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .contactBtn {
-  width: 100px;
-  margin: 10px auto 0;
-  border: none;
-  padding: 10px;
-  border-radius: 15px;
-  cursor: pointer;
-  margin-bottom: 10px;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.deleteBtnIcon{
-  margin-right: 6px;
-  justify-content: center;
-  text-align: center;
-}
-.contactBtn:hover {
-  background: #f6f9fe;
-  color: #174ea6;
+.deleteBtnIcon {
+    margin: 0 5px;
+    
 }
 
-.contactBtn:active {
-  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%),
-    0 8px 12px 6px rgb(60 64 67 / 15%);
-  outline: none;
+.liIcon {
+    margin: 0 5px;
+    
 }
-  

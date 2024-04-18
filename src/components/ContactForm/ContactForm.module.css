@@ -1,14 +1,25 @@
 .form {
+  
   display: flex;
   flex-direction: column;
   width: 250px;
-
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 8px;
-  padding: 35px;
+  padding: 45px;
+  margin-left: 30px;
+  
 }
 
 
+.formName{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.formNumb{
+  border: 2px solid black;
+  border-radius: 5px;
+}
 .errorMsg {
   color: red;
 }
@@ -19,6 +30,7 @@
   border: none;
   padding: 8px;
   border-radius: 15px;
+  border: 2px solid #050505;
   cursor: pointer;
 }
 

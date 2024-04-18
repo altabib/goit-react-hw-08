@@ -14,7 +14,7 @@ return (
     <FaBook className={css.searchBoxIcon}/>
     <p className={css.boxHeader}>Search for a contact</p>
     </label>
-      <input className={css.boxInput} type="text" value={filter} onChange={(e) => dispatch(changeFilter(e.target.value))} placeholder=' Who are you looking for?'/>
+      <input className={css.boxInput} type="text" value={filter} onChange={(e) => dispatch(changeFilter(e.target.value))} placeholder=' Enter contact name'/>
   </div>
   )
 }
