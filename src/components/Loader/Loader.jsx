@@ -1,8 +1,8 @@
-import { Circles } from "react-loader-spinner";
+import { Grid } from "react-loader-spinner";
 
 export default function Loader() {
   return (
-    <Circles
+    <Grid
         visible={true}
         height="80"
         width="80"

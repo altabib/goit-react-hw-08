@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+* {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+.btn {
+  border: 2px solid #040404;
+  text-align: center;
+  color: #040404;
+  cursor: pointer;
+  display: inline-block;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
+  
+  
+}
+
+.btnEffect {
+  
+  
+  svg {
+    padding-right: 200px;
+    display: block;
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+  }
+  
+  
+}
+
+
+.authNav {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  gap: 30px;
+}

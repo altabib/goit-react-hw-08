@@ -1,8 +1,21 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+ 
+  color: rgba(6, 6, 6, 0.94);
+  background-color: #faf7f7;
+
+  display: flex;
+  justify-content: center;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.5;
 }
-
+/* 
 h1,
 h2,
 h3,
@@ -23,4 +36,4 @@ ol {
 img {
   display: block;
   max-width: 100%;
-}
+} */
